@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  -moz-user-select: none;
+  /*火狐*/
+  -webkit-user-select: none;
+  /*webkit浏览器*/
+  -ms-user-select: none;
+  /*IE10*/
+}
+div,
+img,
+input,
+textarea,
+span,
+a {
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+div,
+input,
+textarea,
+span,
+a:focus,
+a:active,
+a:hover {
+  text-decoration: none;
+}
+html {
+  background-color: #A51616;
+}
+html #bgt {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  position: fixed;
+  z-index: 4;
+  left: 0;
+  top: 0;
+}
+html #head {
+  width: 100%;
+  height: auto;
+}
+html #head > img {
+  display: block;
+  border: none;
+  width: 100%;
+  height: auto;
+}
+html #group {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: auto;
+  margin-top: -30vw;
+}
+html #group > .title {
+  display: block;
+  width: 96.8vw;
+  height: 28.8vw;
+  background-image: url("../img/groupTitle.png");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  margin: 0 auto;
+}
+html #group > .list > a {
+  display: block;
+  width: 100%;
+  height: 81.5vw;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  position: relative;
+  margin-top: -2vw;
+}
+html #group > .list > a:not(:first-child) {
+  margin-top: -4.5vw;
+}
+html #group > .list > a > p {
+  font-size: 2.7vw;
+  color: #999999;
+  font-weight: normal;
+  font-family: Arial;
+  position: absolute;
+  right: 5.4vw;
+  bottom: 4vw;
+}
+html #seckill {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: auto;
+  padding-bottom: 28.5vw;
+}
+html #seckill > .title {
+  display: block;
+  width: 94.7vw;
+  height: 45.3vw;
+  background-image: url("../img/seckillTitle.png");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  margin: 0 auto;
+}
+html #seckill > .list {
+  width: 94.7vw;
+  height: auto;
+  margin: 2.7vw auto;
+  overflow: hidden;
+}
+html #seckill > .list > a {
+  display: block;
+  width: 46.7vw;
+  height: 70.8vw;
+  float: left;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  margin-bottom: 1.3vw;
+  position: relative;
+}
+html #seckill > .list > a:nth-of-type(2n) {
+  margin-left: 1.3vw;
+}
+html #seckill > .list > a > div {
+  width: 44vw;
+  height: 3.2vw;
+  position: absolute;
+  bottom: 13.5vw;
+  left: 1.3vw;
+  background-color: #EDE5DA;
+  border-radius: 1.6vw;
+  overflow: hidden;
+}
+html #seckill > .list > a > div > div {
+  height: 3.2vw;
+  background-color: #BC202B !important;
+}
+html #seckill > .list > a > div > div > span {
+  font-size: 2.1vw;
+  color: white;
+  font-weight: normal;
+  font-family: Arial;
+  position: relative;
+  top: -0.5vw;
+  right: 1vw;
+}
+html #footer {
+  width: 100%;
+  height: 36.5vw;
+  background-image: url("../img/footer.png");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  position: fixed;
+  z-index: 3;
+  left: 0;
+  bottom: 0;
+}
+/*# sourceMappingURL=index.css.map */
